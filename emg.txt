@@ -1,0 +1,26 @@
+In die EMG versterkerbaan word van die AD620 pakkie gebruik gemaak as die
+differensiele versterker blok.  Die grootste oorweging wat in die guns van
+die AD620 tel is baan se relatief lae koste in vergelyking met ander
+instrumentasie versterker pakkies. Die spanningswins word gestel deur slegs
+een eksterne weerstand. Die baan het baie goeie gelykstroom en wisselstroom
+ruisspesifikasies (0,28u Vpp ruis (0.1 -10Hz). Die baan het 'n maksimum
+gemenemodus verwerpingsverhouding van 110dB.Dit is heeltemal voldoende
+van die meting van die EMG sein.
+
+Vir die primere inset is 'n wins van 400 gekies om geinduseerde ruis te
+beperk. Die uitsetsein word geintegreer en teruggevoer na die swewende grond
+van die innstrumentele versterker. Dit verseker dat die versterker nie
+versadig nie, C van die integreerbaan is so gekies dat daar 'n vinnige
+hersteltepo na 'n puls is. Hierdie GS-vlak baan skuif die GS vlak van die
+uitsetsein relatief tot die analoog grond in 'n poging om van GS-afsette
+ontlae te raak.
+
+Die gemiddelde waarde van die insetseinne word terruggevoer na die 
+elektrode grond om sodoende die gemene modus spanning tussen die elektrodes
+op die veloppervlak en die analoog grond van die EMG baan so klein as
+moontlik te maak.
+
+Die uitsetsein word gelykgerig en geintegeer om 'n varierende DC sein aan
+die volgende trap in die FES stelsel te lewer.
+
+

@@ -1,0 +1,95 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces System overview.}}{11}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces System signal flow diagram.}}{14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Simulated EEG power distribution}}{18}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Simulated EEG signal.}}{19}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Physical model of the standard measurement environment.}}{21}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces SME Photograph}}{22}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Electrical model of the standard measurement environment.}}{23}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sinusoidal signal generator.}}{26}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Resistance--Frequency (C=2~$\mu $F)}}{28}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces White noise generator.}}{30}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces $e_{EEG}$ integration.}}{32}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces $e_c(t) = e_{sn} + e_{white}$.}}{33}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces $e_b(t)_{\alpha + \beta }$ simulation.}}{35}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces $e_c(t)$ simulation.}}{36}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces SME 3~Hz ($\delta $) source time signal [V/ms]}}{37}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces SME 3~Hz ($\delta $) source spectrum [dB/Hz]}}{37}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces SME 6~Hz ($\theta $) source time signal [V/time]}}{39}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces SME 6~Hz ($\theta $) source spectrum [dB/Hz]}}{39}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces SME 10~Hz ($\alpha $) source time signal [V/ms]}}{40}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces SME 10~Hz ($\alpha $) source spectrum}}{41}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces SME 16~Hz ($\beta $) source time signal [V/time]}}{41}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces SME 16~Hz ($\beta $) source spectrum}}{42}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces SME 35~Hz ($\gamma $) source time signal [V/time]}}{43}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces SME 35~Hz ($\gamma $) source spectrum [dB/Hz]}}{43}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces SME 35~Hz $\gamma $ source spectrum [dB/Hz], 4096 Hanning window}}{44}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Passive electrode noise sources}}{48}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Differential amplifier input}}{51}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Active electrode circuit diagram \cite {buffer}}}{52}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces $\epsilon (\tau _1, \tau _2)$}}{54}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces $\omega _n(\tau _1, \tau _2)$}}{55}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces $\omega _{-3dB}(\epsilon )$}}{57}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Active electrode equivalent noise circuit.}}{62}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Active electrode structural design parameters.}}{65}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Active electrode implementation.}}{66}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces SAM container implementation.}}{67}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Head--band mounted electrode.}}{68}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Head--band mounted electrodes.}}{69}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Electrodes mounted at $F_{p1}$ and $F_{p2}$}}{69}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Unmounted SAM and SME}}{70}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Mounted SAM and SME}}{70}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces AE noise measurement circuit}}{71}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces AE off grounded}}{72}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces AE off un-grounded}}{73}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces $\delta $ (3~Hz) signal test}}{73}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces $\theta $ (6~Hz) signal test}}{74}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces $\alpha $ (10~Hz) signal test}}{75}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces $\gamma $ (35~Hz) signal test}}{75}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Signal conditioning specification}}{79}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Differential amplifier implementation}}{81}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Right--leg drive equivalent circuit}}{84}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Right-leg drive equivalent gain loop}}{86}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces RLD drive circuit}}{89}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sallen-Key architecture.}}{91}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sallen-Key gain-block diagram.}}{92}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sallen-Key two-pole high-pass filter}}{93}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sallen-Key two-pole low-pass filter.}}{95}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ten-pole low-pass filter.}}{98}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces HP--filter output amplifier.}}{99}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces LP--filter output amplifier.}}{100}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces LLSPM Integration.}}{101}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces LLSPM Container.}}{102}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Picotech ADC-42.}}{106}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Raw EEG trace (1 second) }}{109}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces SME 35~Hz ($\gamma $) source spectrum [dB/Hz]}}{109}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Active electrode EEG acquisition system.}}{111}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces System integration block diagram.}}{112}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Test and measurement environment.}}{113}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces System noise measurement configuration.}}{114}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces EEG System passive noise}}{115}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces $R_1$ = $R_2$ = 100~k$\Omega $ electrode resistance}}{116}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces $R_1$ = $R_2$ = 100~k$\Omega $, RLD deactivated}}{117}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces $R_1$ = $R_2$ = 100~k$\Omega $, $R_3$ = 0~$\Omega $, RLD activated}}{117}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces $R_1$ = $R_2$ = 0~k$\Omega $, $R_3$ = 0~$\Omega $, RLD activated}}{118}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces $R_1$ = $R_2$ = 0~k$\Omega $, $R_3$ = 0~$\Omega $, RLD deactivated}}{119}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces SME $\alpha $ (10~Hz) test signal}}{119}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces $R_1$ = $R_2$ = $R_3$ = 10~k$\Omega $, SME $\alpha $ (10~Hz) test signal}}{120}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces $R_1$ = $R_2$ = 10~k$\Omega $, $R_3$ = 0~$\Omega $, SME $\alpha $ (10~Hz) test signal}}{121}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces $F_{p1}$, $F_{p2}$, RLD right ear}}{121}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces $F_{p1}$, $F_{p2}$, RLD left ear}}{122}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Eyes closed 60~s averaging period}}{123}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Eyes open 60~s averaging period}}{123}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Binaural beat on}}{124}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Binaural beat off}}{125}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Silver coating circuit.}}{129}
+\addvspace {10\p@ }

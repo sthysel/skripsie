@@ -1,0 +1,170 @@
+\section{Overview}
+The signal conversion module (SC) converts the analog EEG signal
+acquired by the low-level signal processing module to a 12-bit digital
+signal representation. The SC module consists of a hardware interface
+and AD converter and Windows based PC driver software.
+
+The digital to analog conversion (ADC) of the acquired EEG signal is
+not considered a priority module in this system as optimized
+commercial ADC's are available. It is however prudent to take
+cognizance of signal noise and error sources due to the conversion
+process and note their overall contribution to the system's SNR. While
+keeping noise and error contribution factors in mind a cost effective
+custom made ADC system can be designed and implemented that will have
+the minimum impact on signal quality.
+
+
+The low bandwidth requirement eases the implementation of the ADC
+module as high frequency integrated analog to digital converters are
+expensive and have strict restrictions on circuit board layout design
+and implementation. Additional circuit complexity is introduced by the
+approximate DC qualities at the low frequency end of a normal EEG
+signal. The low bandwidth of the EEG signal of interest in this project
+(0.1~--~35~Hz) makes the use of standard sound cards as ADC's difficult
+as most commercial sound cards have a 20~Hz high--pass filter at their
+front ends.
+
+Because the design and implementation of a ADC system is fairly
+tangential to the topic of active electrode design a commercial 12-bit
+SC module is used for data capturing purposes.
+
+
+
+\section{Design specification}
+As the EEG bandwidth of interest in this project ranges from 0.1~Hz to
+35~Hz the AD sampling frequency according to the minimum Nyquist
+frequency $f_{nq}$ requirement can be significantly lower than that of
+data acquisition systems for high bandwidth applications. This
+specification makes it possible to use low--cost and readily available
+integrated ADC solutions to implement this module.
+
+
+Depending on the application a certain amount of signal error is
+permissible. Biofeedback applications depend on gross values only and
+may be effectively implemented with a low accuracy ADC module. For the
+purpose of clinical diagnosis a minimum resolution requirement of 12
+bits is usually the case. Increased resolution is not always useful as
+amplifiers obtainable with current solid state technology will swamp
+the extra bits with noise \cite{pc-eeg}. Non-linear encoding
+techniques may be employed to make use of the extra resolution with
+the added cost of significant increase in system complexity and
+implied expense. A 12--bit DAC is required to insure a high level of
+data integrity in the signal display module.
+
+The SC module must interface directly with standard IBM compatible PC
+hardware. A standard ECP/ECP parallel port will be used. Making use of
+the standard capabilities available in modern PC hardware greatly
+reduces the complexity of data acquisition system
+implementations. Personal computer software will be used to capture,
+store and display the digitized EEG signal.
+
+\section{Implementation}
+\subsection{Hardware interface}
+
+The signal conversion module hardware is implemented using the ADC-42
+device available from Pico Technology Limited
+\footnote{http://www.picotech.com}.
+
+\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics{adc42.eps} 
+	\caption{Picotech ADC-42.}  
+	\label{fig:ladc42}
+	\end{center}
+\end{figure}
+
+Figure~\ref{fig:ladc42} is a photograph of the ADC-42 as found on the
+companies Web--site. The ADC-42 is compact single channel 12--bit
+analog to digital converter that plugs into a standard PC parallel
+port. A single BNC connection is available that can be used with a
+standard oscilloscope probe. 
+
+Table~\ref{table:adc42} is a summary of the ADC-42 specification:
+
+\begin{table}
+\begin{center}	
+	\begin{tabular}[htpb]{|c|l|} \hline
+		Resolution & 12~bit \\
+		Input voltage range & $\pm$12~V \\
+		Input Impedance ($Z_{in}$) & 1~M$\Omega$ \\
+		Sample Rate & 15~ksps (kilo samples per second) \\
+		Absolute accuracy at 25$^oC$ & $\pm$1\% \\
+		\hline		
+	\end{tabular}
+	\caption{ADC-42 product specification}
+	\label{table:adc42}
+\end{center}	
+\end{table}
+
+From Table~\ref{table:adc42} can be seen that all the requirements of
+the design specification are met. The ADC has a resolution of 12 bits
+that ensures a good digital representation of the analog EEG
+signal. The high input impedance implies that no unnecessary loading
+of the filter output stages will occur. The high $Z_{in}$ value
+negates the need for a output buffer in the LLSPM. The sample rate of
+15~ksps is more than adequate for the (0.1--35~Hz) EEG band of
+interest.
+
+The ADC-42 complies with the EEC requirements on generic EMI
+emissions. The close proximity of a PC to the low level signal
+processing module does however have noise implications. For this
+reason commercial oscilloscope cables were used and the LLSP and SA
+modules were positioned as far as possible from the PC.
+
+\subsubsection{ADC Safety}
+The ADC-42 ground input is connected directly to the PC ground. This is
+done to minimize interference. Care must be taken to ensure that the
+ground input of the ADC is protected from large voltage
+differences. 
+
+\subsection{ADC driver software}
+
+The ADC-42 package is shipped with all the necessary driver software
+and tools needed to use the ADC-42 as a standard oscilloscope or data
+logger. 
+
+The standard ADC-42 software were extensively used throughout the
+testing and measurement phases of the various modules.
+
+\subsection{Conversion noise}
+
+A main concern when using or designing ADC systems are the systems
+sampling rate and resolution and the effect of said parameters on
+signal quality. The signal conversion process is inherently 'noisy' as
+it introduces a conversion error for each digital approximation of the
+measured analog signal. The signal error or conversion noise
+introduced in this manner can be reduced by increasing the converter's
+resolution but not completely eliminated. The acceptable amount of
+conversion noise in noted and the system's accuracy predicted based on
+the conversion noise figure. It is possible to reduce conversion noise
+in a averaging system by assuming that the error value is fairly
+constant \cite{roundoff-error}. The ADC-42 driver software includes
+facilities to activate this feature at the source level.
+
+The SNR of a quantified signal produced by a sequential approximation
+converter, as used in the ADC-42 (PIC16C774), is a function of the
+variance of the sampled data:
+\begin{equation}
+	SNR = 6.02b + 10.79 +10\log_{10}\sigma^2
+	\label{eq:cnoise}
+\end{equation}
+With $b$ the ADC resolution and $\sigma$ the variance of the sampled
+data. Equation~\ref{eq:cnoise} assumes no other sources of noise. The
+mean of the resulting digital signal is determined over a set of
+samples and each sample corrected with the calculated error. Typical
+SNR values for the PIC16C774 used in the implementation of the ADC-42
+is $\pm\/80~dB$~\footnote{http://www.microchip.com}.
+
+The resolution of the ADC is defined as the smallest voltage
+difference that can be detected. The system resolution is a function
+of the input voltage range and the converter's resulting word width:
+\begin{equation}
+	Res = \frac{Range}{ 2^{nbits}- 1}
+	\label{eq:resolution}
+\end{equation}
+With $Res$ the resolution, $Range$ the input voltage range (10~V) and
+$nbits$ the word width (12). For the ADC-42 the resolution
+$Res$~=~2,4~mV or 0.024\% of full-scale. It is therefore important to
+amplify the EEG signal to close to full scale to keep conversion
+errors within this acceptable margin.
+

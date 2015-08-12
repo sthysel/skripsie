@@ -1,0 +1,56 @@
+
+search term: eeg interface
+
+EEG Interface
+
+Dr Douglas Russell; College of Aeronautics 
+The development of an evoked potential interface for airborne computer displays 
+
+EEG-based Computer Interface
+
+
+
+The goal of this project is to develop an EEG-based computer interface
+which can be used by profoundly paralysed patients to control a
+communication device. There exists a significant population who, due
+to disease or injury, are totally paralysed but have normal or
+near-normal brain function. In such cases, called Locked-in-Syndrome,
+the patient is aware of his or her surroundings, but has no way of
+communicating with the outside world. This project will explore how
+brain-waves recorded from scalp electrodes can be used as a switching
+device to control a computerized communication system. We have decided
+to use an evoked potential known as P300 as the switch in our
+system. P300 is a well-studied, easily reproducible brain signal that
+occurs in response to a significant but low-probability event. This
+signal is typically elicited using an "oddball paradigm" in which the
+subject detects occasional low-probability target stimuli randomly
+interspersed among more frequently presented background stimuli. The
+P300 is a positive wave that occurs about 300 milliseconds after the
+onset of the target (oddball) stimulus. The proposed research will
+explore the utility of presenting two or more simultaneous oddball
+tasks to the subject while recording his or her EEG. The tasks will
+appear in different positions on a computer monitor. Each task will
+present targets at different times. By hypothesis, P300s will be
+produced only for the targets in the oddball task that the subject is
+attending to, and not for the targets from other tasks that are
+running in other locations on the screen. The experimenter should be
+able to tell which screen location the subject is attending to by
+matching P300 acquisition times with target presentation times for
+each task. Depending on the number of tasks running in different
+locations on the screen, each location can represent anything from
+simple yes-no decisions to letters of the alphabet.
+
+
+Polikoff, J., Bunnell, H.T., and Borkowski, W. (1995). "Toward a
+P300-based Computer Interface." Proceedings of the RESNA '95 Annual
+Conference, RESNAPRESS, Arlington Va. pp 178-180. [html] [ps]
+
+Kuno, Y., Yagi, T., Uchikawa, Y., A Study toward EEG Applications:
+Event -related Potential from Posterior Parietal Cortex, Proc.19th
+Annual International Conference of the IEEE Engineering in Medicine
+and Biology Society, 1551-1553, 1997.
+
+Funase, A., Yagi, T., Kuno, Y., Uchikawa, Y., Fundamental research for
+EEG interface: EEG and auditory/visual stimulus during eye-movements,
+Proc. of 1999 IEEE Int. Conf. on systems, Man and Cybernetics, Vol.II,
+413-417, 1999.

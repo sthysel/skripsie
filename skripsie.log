@@ -1,0 +1,415 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2000.3.7)  2 OCT 2000 01:15
+**skripsie.tex
+(skripsie.tex
+LaTeX2e <1998/12/01> patch level 1
+Babel <v3.6x> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 1999/01/07 v1.4a Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 1999/01/07 v1.4a Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 1999/05/05 v3.6x The Babel package
+
+(/usr/share/texmf/tex/generic/babel/english.ldf
+Language: english 1999/04/11 v3.3i English support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 1999/05/05 v3.6x Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf/tex/latex/misc/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count89
+\pfg@scount=\count90
+\pfg@temp=\write3
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/latex/tools/varioref.sty
+Package: varioref 1999/02/24 v1.2a package for extended references (FMi)
+\c@vrcnt=\count91
+) (skripsie.aux
+
+LaTeX Warning: Label `fig:sme35-1' multiply defined.
+
+)
+\openout1 = `skripsie.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 30.
+ [1
+
+]
+Overfull \hbox (5.12228pt too wide) in paragraph at lines 33--46
+[]\OT1/cmr/m/n/12 This re-port doc-u-ments the de-sign and im-ple-men-ta-tion o
+f a active--electrode
+ []
+
+[1] (skripsie.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+ [2
+
+] [3])
+\tf@toc=\write4
+\openout4 = `skripsie.toc'.
+
+ [4] (skripsie.lof [5
+
+] [6])
+\tf@lof=\write5
+\openout5 = `skripsie.lof'.
+
+ [7] (skripsie.lot)
+\tf@lot=\write6
+\openout6 = `skripsie.lot'.
+
+
+[8
+
+]
+Chapter 1.
+(intro.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 31.
+ [9
+
+]
+File: overview.eps Graphic file (type eps)
+ <overview.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1998/03/27 v2.5g Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+ [10] [11] [12]
+File: eeg-signal-flow.eps Graphic file (type eps)
+
+<eeg-signal-flow.eps> [13] [14] [15]) [16]
+Chapter 2.
+(sme.tex [17
+
+]
+File: sme-eeg-power.eps Graphic file (type eps)
+ <sme-eeg-power.eps> [18]
+File: time-sim.eps Graphic file (type eps)
+ <time-sim.eps> [19]
+File: standard-measurement-environment.eps Graphic file (type eps)
+
+<standard-measurement-environment.eps> [20] [21]
+File: sme-head.eps2 Graphic file (type eps)
+ <sme-head.eps2> [22]
+File: sme-eq.eps Graphic file (type eps)
+
+<sme-eq.eps> [23] [24] [25]
+File: sin-source.eps Graphic file (type eps)
+ <sin-source.eps> [26] [27]
+File: sin-r.eps Graphic file (type eps)
+ <sin-r.eps> [28]
+[29]
+File: noise-generator.eps Graphic file (type eps)
+ <noise-generator.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 644.
+File: eeeg.eps Graphic file (type eps)
+ <eeeg.eps> [30]
+File: ec-int.eps Graphic file (type eps)
+ <ec-int.eps> [31] [32] [33]
+File: eb-sim.eps Graphic file (type eps)
+
+<eb-sim.eps> [34]
+File: ec-sim.eps Graphic file (type eps)
+ <ec-sim.eps> [35]
+File: SME31.ps Graphic file (type eps)
+ <SME31.ps>
+File: SME32.ps Graphic file (type eps)
+ <SME32.ps> [36] [37]
+File: SME62.ps Graphic file (type eps)
+ <SME62.ps>
+File: SME61.ps Graphic file (type eps)
+
+<SME61.ps>
+File: SME101.ps Graphic file (type eps)
+ <SME101.ps> [38] [39]
+File: SME102.ps Graphic file (type eps)
+ <SME102.ps>
+File: SME162.ps Graphic file (type eps)
+ <SME162.ps> [40] [41]
+File: SME161.ps Graphic file (type eps)
+ <SME161.ps>
+File: SME352.ps Graphic file (type eps)
+
+<SME352.ps>
+File: SME351.ps Graphic file (type eps)
+ <SME351.ps> [42] [43]
+File: SME353.ps Graphic file (type eps)
+ <SME353.ps> [44]) [45]
+Chapter 3.
+(sa.tex [46
+
+] [47]
+File: electrode-noise.eps Graphic file (type eps)
+ <electrode-noise.eps> [48] [49] [50]
+File: diff-amp-frontend.eps Graphic file (type eps)
+ <diff-amp-frontend.eps>
+[51]
+File: active-electrode.eps Graphic file (type eps)
+ <active-electrode.eps> [52] [53]
+File: damping.eps Graphic file (type eps)
+ <damping.eps>
+File: natural.eps Graphic file (type eps)
+ <natural.eps> [54] [55]
+File: 3db.eps Graphic file (type eps)
+
+<3db.eps> [56] [57] [58] [59] [60]
+File: ae-noise-eq.eps Graphic file (type eps)
+ <ae-noise-eq.eps> [61] [62] [63]
+File: electrode-imp.eps Graphic file (type eps)
+
+<electrode-imp.eps>
+File: electrode.ps Graphic file (type eps)
+ <electrode.ps> [64] [65]
+Overfull \hbox (0.6404pt too wide) in paragraph at lines 994--1000
+[]\OT1/cmr/m/n/12 During ac-tive elec-trode im-ple-men-ta-tion it was de-cided 
+to use the Ag/AgCl
+ []
+
+File: headband2.eps Graphic file (type eps)
+<headband2.eps>
+File: single-electrode-headband.ps Graphic file (type eps)
+ <single-electrode-headband.ps> [66] [67]
+File: electrode-headband.ps Graphic file (type eps)
+
+<electrode-headband.ps>
+File: electrodes-front-headband.ps Graphic file (type eps)
+ <electrodes-front-headband.ps>
+File: unmounted-SMEandSAM.ps Graphic file (type eps)
+
+<unmounted-SMEandSAM.ps>
+File: mounted-SMEanSAM.ps Graphic file (type eps)
+ <mounted-SMEanSAM.ps> [68] [69] [70]
+File: ae-m.eps Graphic file (type eps)
+ <ae-m.eps>
+File: AE1OF.ps Graphic file (type eps)
+
+<AE1OF.ps> [71]
+File: AE2OFOP.ps Graphic file (type eps)
+ <AE2OFOP.ps>
+File: AE63SME.ps Graphic file (type eps)
+ <AE63SME.ps> [72] [73]
+File: AE36SME.ps Graphic file (type eps)
+ <AE36SME.ps>
+File: AE410SME.ps Graphic file (type eps)
+ <AE410SME.ps>
+File: AE535SME.ps Graphic file (type eps)
+
+<AE535SME.ps> [74] [75]) [76]
+Chapter 4.
+(llsp.tex [77
+
+]
+File: sig-cond-spec.eps Graphic file (type eps)
+ <sig-cond-spec.eps> [78] [79]
+Overfull \hbox (0.7978pt too wide) in paragraph at lines 191--191
+[]\OT1/cmr/bx/n/14.4 Differential Am-pli-fier de-sign and im-ple-men-ta-tion 
+ []
+
+File: instrumentation-amp.eps Graphic file (type eps)
+<instrumentation-amp.eps> [80] [81] [82]
+File: rld-opt1.eps Graphic file (type eps)
+ <rld-opt1.eps> [83] [84] [85]
+File: rld-gain.eps Graphic file (type eps)
+
+<rld-gain.eps> [86] [87] [88]
+File: rl-drive.eps Graphic file (type eps)
+ <rl-drive.eps> [89]
+File: sallen-key-gen.eps Graphic file (type eps)
+ <sallen-key-gen.eps> [90]
+File: sk-block.eps Graphic file (type eps)
+
+<sk-block.eps> [91] [92]
+File: high-pass.eps Graphic file (type eps)
+ <high-pass.eps> [93]
+File: low-pass.eps Graphic file (type eps)
+ <low-pass.eps> [94] [95] [96]
+File: lp-imp.eps Graphic file (type eps)
+
+<lp-imp.eps>
+File: amp1.eps Graphic file (type eps)
+ <amp1.eps>
+File: amp2.eps Graphic file (type eps)
+ <amp2.eps>
+File: llspm-int.eps Graphic file (type eps)
+ <llspm-int.eps> [97] [98] [99] [100]
+File: whole-system1.ps Graphic file (type eps)
+
+<whole-system1.ps> [101] [102]) [103]
+Chapter 5.
+(sc.tex [104
+
+]
+File: adc42.eps Graphic file (type eps)
+ <adc42.eps> [105] [106]) [107]
+Chapter 6.
+(hlsp.tex
+File: eeg-ex1.eps Graphic file (type eps)
+ <eeg-ex1.eps>
+File: SME351.ps Graphic file (type eps)
+ <SME351.ps>) [108
+
+] [109] [110]
+Chapter 7.
+(integration.tex
+File: whole-system2.ps Graphic file (type eps)
+ <whole-system2.ps> [111
+
+]
+File: integration.eps Graphic file (type eps)
+ <integration.eps> [112]
+File: test-setup.ps Graphic file (type eps)
+
+<test-setup.ps> [113]
+File: noise-m.eps Graphic file (type eps)
+ <noise-m.eps> [114]
+File: SEEGNS1.ps Graphic file (type eps)
+ <SEEGNS1.ps> [115]
+File: N2ON100K.ps Graphic file (type eps)
+ <N2ON100K.ps>
+File: N3NRLD1.ps Graphic file (type eps)
+
+<N3NRLD1.ps>
+File: N4RLD1.ps Graphic file (type eps)
+ <N4RLD1.ps>
+File: N5RLD.ps Graphic file (type eps)
+ <N5RLD.ps> [116] [117]
+File: N6NRLD.ps Graphic file (type eps)
+ <N6NRLD.ps>
+File: LOW10.ps Graphic file (type eps)
+ <LOW10.ps>
+File: SME10LOW.ps Graphic file (type eps)
+
+<SME10LOW.ps> [118] [119]
+File: SME10LOW2.ps Graphic file (type eps)
+ <SME10LOW2.ps>
+File: EEG1.ps Graphic file (type eps)
+ <EEG1.ps> [120] [121]
+File: EEG2.ps Graphic file (type eps)
+ <EEG2.ps>
+
+LaTeX Warning: Reference `fig:EEG2' on page 122 undefined on input line 355.
+
+File: EEGAV3TOE.ps Graphic file (type eps)
+<EEGAV3TOE.ps>
+File: EEGAV3OOP.ps Graphic file (type eps)
+ <EEGAV3OOP.ps> [122] [123]
+File: EEGAV2.ps Graphic file (type eps)
+ <EEGAV2.ps> [124]
+File: EEGAV1.ps Graphic file (type eps)
+ <EEGAV1.ps>
+[125]) (glossary.tex [126]
+Appendix A.
+) (plating.tex [127
+
+]
+Appendix B.
+File: silver.eps Graphic file (type eps)
+<silver.eps> [128
+
+]) (tools.tex [129]
+Appendix C.
+) (skripsie.bbl [130
+
+]
+Underfull \hbox (badness 1796) in paragraph at lines 10--14
+[]\OT1/cmr/m/n/12 Owen Bishop.  \OT1/cmr/m/it/12 Es-sen-tial Ana-log Elec-tron-
+ics\OT1/cmr/m/n/12 .  Newnes, Linacre
+ []
+
+[131
+
+]) [132] (skripsie.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2013 strings out of 10898
+ 23709 string characters out of 96882
+ 81920 words of memory out of 263001
+ 4860 multiletter control sequences out of 10000+0
+ 11035 words of font info for 38 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 25i,11n,22p,204b,448s stack positions out of 300i,100n,500p,50000b,4000s
+
+Output written on skripsie.dvi (133 pages, 391872 bytes).

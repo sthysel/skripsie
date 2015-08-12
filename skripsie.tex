@@ -1,0 +1,88 @@
+%
+% MJ Meintjes thys@postino.up.ac.za 1997 June
+% Department of Electrical&Electronic Engineering
+% Biogroup
+% University of Pretoria
+% South Africa
+%
+% 97/06/26 Language change, primary design&latex skeletal
+% implementation
+%
+
+\documentclass[a4paper,12pt]{report}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{psfrag}
+\usepackage{color}
+\usepackage{varioref}
+
+
+\begin{document}
+\title{\bf{AN INVESTIGATION INTO THE FEASIBILITY OF AN ACTIVE ELECTRODE
+		EEG DATA ACQUISITION SYSTEM}}
+\author{by\\M.J Meintjes \\ Submitted in partial fulfillment for the degree\\
+		Master of Engineering (Bio--Engineering)\\
+		in the\\
+		Faculty of Engineering\\
+		\\
+		UNIVERSITY OF PRETORIA}
+\date{}
+\maketitle
+\abstract{
+
+This report documents the design and implementation of a
+active--electrode EEG data--acquisition system. The system design is
+logically and physically separated into independent functional
+modules. Each module is designed and implemented with the reduction of
+the effects of environmental and system noise as primary goal. Various
+techniques are employed to prevent the degradation of EEG signals by
+both external and internal noise sources within all system
+modules. The primary goal of the system is to achieve the highest
+possible degree of usability within the lowest possible noise
+budget. Quantitative estimates of acceptable noise levels are used to
+calculate the maximum level of permissible system noise. This noise
+budget is primarily spent on the signal acquisition modules in an
+effort to enhance the level of system usability.}
+
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\pagestyle{headings}
+
+\chapter{Introduction}
+\input{intro.tex}
+
+\chapter{The Standard Measurement Environment} \label{chap:sme}
+\input{sme.tex}
+
+\chapter{Signal acquisition} \label{chap:sa}
+\input{sa.tex}
+
+\chapter{Low-level signal processing} \label{chap:llsp}
+\input{llsp.tex}
+
+\chapter{Signal conversion} \label{chap:sc}
+\input{sc.tex}
+
+\chapter{High-level signal processing and Display} \label{chap:hlsp}
+\input{hlsp.tex}
+
+\chapter{System Integration and Measurements} \label{chap:integration}
+\input{integration.tex}
+
+\appendix
+\input{glossary.tex}
+\input{plating.tex}
+\input{tools.tex}
+
+\bibliographystyle{plain}
+\bibliography{bio}
+
+\end{document}
+
+

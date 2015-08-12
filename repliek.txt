@@ -1,0 +1,46 @@
+
+Corrections and additions to original report.
+
+
+Alterations to original report as suggested by Prof, P Cilliers:
+
+1. Added discussion and references to literature on the clinical
+   application of EEG measurements.
+2. Corrected linguistic and technical errors as indicated on the
+   following pages of the original report:
+   2.1 p7 - grammar
+   2.2 p8 - grammar, added paragraph on clinical application of EEG.
+   2.3 p9 - grammar, updated implementation documentation throughout
+   report.
+   2.4 p11, 12 - expanded documentation at relevant module level.
+   2.5 Removed figure 1.2
+   2.6 SME use documented at module level where appropriate.
+   2.7 p17, p18, p19, p20, p22, grammar, technical
+   2.8 p23, p24, p30, p34, p35 technical
+   2.9 p36 results expanded at module level
+   2.10 p40, p42, p55, p57, p62, p63, p64, p65, p67, p72 technical
+   2.11 p73 corrected filter design
+   2.12 p75 removed container implementation design as it has been
+   superseded.
+   2.13 p78, p79, p80, p81, p82, p83, p84, p85, p86, p87 technical and
+   grammatical errors attended to.
+   2.14 Updated chapter 7.
+
+Alterations to original report as suggested by external examinator:
+
+3. Short commentary on the generation and use of EEG traces.
+4. Added background material on human EEG.
+5. Added various system measurements.
+6. Commented on feasibility.
+
+New material:
+
+7. Measurements from the different system modules were presented
+   where applicable.
+8. RLD design added.
+
+General:
+9. The system were completely re-implemented. All measurements were
+   done with the new system.	     
+10. Designs were updated were necessary to reflect the new system 
+    design.

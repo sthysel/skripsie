@@ -1,0 +1,185 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 1999.9.25)  17 MAR 2000 08:09
+**research-proposal.tex
+(research-proposal.tex
+LaTeX2e <1998/12/01> patch level 1
+Babel <v3.6x> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 1999/01/07 v1.4a Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 1999/01/07 v1.4a Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (research-proposal.aux)
+\openout1 = `research-proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \maketitle
+               
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \maketitle
+               
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+[1
+
+] [2] [3]
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 1. Polikoff, J., Bunnell, H.T., and Borkowski, W. (1995). "T
+oward a[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 P300-based Computer Interface." Proceedings of the RESNA 
+'95 Annual[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 2. Makeig S, Enghoff S, Jung T-P, and Sejnowski TJ, "A Natur
+al Basis[] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 for Efficient Brain-Actuated Control", IEEE Trans Rehab E
+ng, in press.[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 3. Kuno, Y., Yagi, T., Uchikawa, Y., A Study toward EEG Appl
+ications:[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 Event -related Potential from Posterior Parietal Cortex, 
+Proc.19th[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 Annual International Conference of the IEEE Engineering i
+n Medicine[] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 4. Funase, A., Yagi, T., Kuno, Y., Uchikawa, Y., Fundamental
+ research for[] 
+ []
+
+
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 EEG interface: EEG and auditory/visual stimulus during ey
+e-movements,[] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 Proc. of 1999 IEEE Int. Conf. on systems, Man and Cyberne
+tics, Vol.II,[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 5. Prosthetic Control by an EEG-based Brain-Computer Interfa
+ce (BCI)[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 Christoph Guger, Werner Harkam, Carin Hertnaes, Gert Pfur
+tscheller[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 Informatics 2Ludwig-Boltzmann Institute for Medical Infor
+matics and[] 
+ []
+
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 6. Cilliers & VanDerKouwe 1993 "A VEP-based Computer Interfa
+ce for[] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 C2-Quadriplegics" Cilliers, P.J., and Van Der Kouwe, A.J.
+W., presented[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 at 1993 IEEE Conference on Electronic Devices for the Dis
+abled --[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 203--203
+[]\OT1/cmtt/m/n/10 7. The Brain-Computer Interface: Techniques for Controlling 
+Machines.[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 203--203
+[]   \OT1/cmtt/m/n/10 amplifier. IEEE transactions on biomedical engineering, b
+me -30(1)[] 
+ []
+
+[4] [5] (research-proposal.aux) ) 
+Here is how much of TeX's memory you used:
+ 222 strings out of 10898
+ 2244 string characters out of 96881
+ 48184 words of memory out of 263001
+ 3216 multiletter control sequences out of 10000+0
+ 7448 words of font info for 27 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 23i,6n,17p,157b,299s stack positions out of 300i,100n,500p,50000b,4000s
+
+Output written on research-proposal.dvi (5 pages, 11012 bytes).
