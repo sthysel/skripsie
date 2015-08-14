@@ -1,0 +1,5 @@
+latex:
+    build: .
+    hostname: latex
+    volumes:
+        - ./src:/work
