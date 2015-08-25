@@ -10,9 +10,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN env --unset=DEBIAN_FRONTEND
 
-RUN groupadd -r dev && useradd -r -g dev dev
-USER dev
-
 VOLUME /work
 WORKDIR /work
 
